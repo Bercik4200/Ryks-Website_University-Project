@@ -1,0 +1,59 @@
+:root {
+
+    --color-dark:#4c4ccb;
+    --color-light:#CCCCFF;
+}
+
+body {
+    background: var(--color-dark);
+    background: linear-gradient(to bottom, white, rgb(71, 129, 255));
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    font-size: 24px;
+    height: 120vh;
+    width: 100vw;
+    margin: 0px;
+
+}
+.menu {
+    padding: 30px 10px 10px 10px;
+    width: 400px;
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(211, 227, 255), rgb(79, 117, 255))
+}
+.menu a {
+    padding: 8px 8px 8px 0px;
+    text-decoration: none;
+    font-size: 50px;
+    color:rgb(91, 91, 91);
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+    outline:none;
+}
+.menu a:hover {
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+menu a:focus {
+    outline: solid 3px rgb(255, 255, 255 0.8);
+}
+
+.logo img {
+    height: 180px;
+    width: 330px;
+    margin: auto;
+    display: block;
+}
+img {
+    height: 200px;
+    width: 200px;
+}
+.container {
+    display: flex;
+  }
+.item {
+    flex-basis: 100px;
+    height: 100px;
+    margin: 140px;
+  }
